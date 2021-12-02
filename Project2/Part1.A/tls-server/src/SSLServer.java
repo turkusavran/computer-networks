@@ -87,6 +87,7 @@ public class SSLServer extends Thread
             st.setDigit(digit);
             st.run();
             digit++;
+            digit = digit == 25 ? 0 : digit;
         }
 
         catch (Exception e)

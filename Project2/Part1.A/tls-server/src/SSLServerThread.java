@@ -20,8 +20,6 @@ import java.io.*;
 
 public class SSLServerThread extends Thread
 {
-
-    private final String SERVER_ACK_MESSAGE = "server_ack";
     private SSLSocket sslSocket;
     private String line = new String();
     private BufferedReader is;
